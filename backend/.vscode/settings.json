@@ -1,0 +1,11 @@
+{
+    //"editor.formatOnSave": true, //set as false and allow scoping of setting per-language basis
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": false
+    },
+    //"prettier.eslintIntegration": true,
+    "css.lint.unknownProperties": "ignore", //ignore composes error unknown property for css composition   
+    "[javascript]": {
+        "editor.formatOnSave": false
+    },
+}
